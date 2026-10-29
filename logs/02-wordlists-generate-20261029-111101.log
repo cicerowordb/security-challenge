@@ -1,0 +1,46 @@
+== Geracao das wordlists ==
+Gerando trial1-passwords.txt (ddll, 58.500 linhas)...
+Padrao: ddll
+Total de combinacoes: 58500
+Gerando todas as combinacoes...
+Tempo total: 00:00:06
+Gerando trial3-passwords.txt (dddll, 468.000 linhas)...
+Padrao: dddll
+Total de combinacoes: 468000
+Gerando todas as combinacoes...
+Tempo total: 00:00:49
+Gerando senhas aleatorias para os demais usuarios...
+Padrao: ddll
+Total de combinacoes: 58500
+Gerando 16 senha(s) aleatoria(s)...
+Tempo total: 00:00:00
+Padrao: dddll
+Total de combinacoes: 468000
+Gerando 16 senha(s) aleatoria(s)...
+Tempo total: 00:00:00
+Montando trial1-credentials.txt...
+Montando trial2-credentials.txt...
+Montando trial3-credentials.txt...
+Arquivos gerados:
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/users.txt (9 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial1-users.txt (9 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial1-credentials.txt (9 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial1-passwords.txt (58500 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial1-spray.txt (10 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial2-users.txt (1 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial2-credentials.txt (9 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial2-passwords.txt (58500 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial3-users.txt (1 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial3-credentials.txt (9 linhas)
+  /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial3-passwords.txt (468000 linhas)
+Resumo:
+  seed trial1: 42
+  seed trial3: 43
+  senha fixa trial1 (backup): 12ab
+  senha fixa trial2 (admin): 12ab
+  senha fixa trial3 (admin): 123ab
+  linha de 12ab em trial1-passwords.txt: 6501
+  linha de 123ab em trial3-passwords.txt: 52651
+  credentials consolidado: /home/cicerow/repos/cicerow/security-chalenge/logs/credentials.txt
+== Wordlists geradas ==
+Tempo total: 00:00:55

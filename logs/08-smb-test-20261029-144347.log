@@ -1,0 +1,9 @@
+== Testes do SMB ==
+Credencial positiva: admin
+debconf: delaying package configuration, since apt-utils is not installed
+Teste positivo: acesso ao share
+OK: acesso positivo
+Teste negativo: senha incorreta
+OK: acesso negativo falhou
+== Testes do SMB concluidos ==
+Tempo total: 00:00:21

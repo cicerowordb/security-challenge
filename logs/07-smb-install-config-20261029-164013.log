@@ -1,0 +1,47 @@
+== Instalacao e configuracao do SMB ==
+Rede lab-net ja existe
+Construindo imagem lab-smb:latest...
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 481B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/debian:12
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/debian:12
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 63B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN apt-get update  && apt-get install -y --no-install-recommends     samba     samba-common-bin     smbclient     procps     passwd     ca-certificates  && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] COPY smb.conf /etc/samba/smb.conf
+#7 CACHED
+
+#8 [4/5] COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#8 CACHED
+
+#9 [5/5] RUN chmod 0755 /usr/local/bin/entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:e79401e4e0fc17a4087059b7fb70899a7203e725998b3f528f4c71e3accd975d done
+#10 naming to docker.io/library/lab-smb:latest done
+#10 DONE 0.0s
+lab-smb
+Container lab-smb removido
+Subindo lab-smb em 172.28.0.12...
+1658b40638c08824eacbeca2ed9e7e96402c24455164ddf6fe0d176c28a69198
+Aguardando smbd...
+OK: lab-smb ativo em 172.28.0.12
+Credenciais usadas: /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial3-credentials.txt
+== SMB pronto ==
+Tempo total: 00:00:02

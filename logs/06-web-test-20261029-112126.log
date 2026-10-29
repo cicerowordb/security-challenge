@@ -1,0 +1,9 @@
+== Testes do Web/DVWA ==
+Credencial positiva: admin
+debconf: delaying package configuration, since apt-utils is not installed
+Teste positivo: login no DVWA
+OK: login positivo
+Teste negativo: senha incorreta
+OK: login negativo falhou
+== Testes do Web/DVWA concluidos ==
+Tempo total: 00:00:09

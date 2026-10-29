@@ -1,0 +1,61 @@
+== Instalacao e configuracao do Web/DVWA ==
+Rede lab-net ja existe
+Construindo imagem lab-web:latest...
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 663B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/debian:12
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/debian:12
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 35B done
+#5 DONE 0.0s
+
+#6 [2/5] RUN apt-get update  && apt-get install -y --no-install-recommends     apache2     mariadb-server     mariadb-client     php     php-mysqli     php-gd     php-xml     php-mbstring     php-curl     libapache2-mod-php     git     curl     ca-certificates     procps  && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] RUN git clone --depth 1 --branch 2.5 https://github.com/digininja/DVWA.git /var/www/html/DVWA
+#7 CACHED
+
+#8 [4/5] COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#8 CACHED
+
+#9 [5/5] RUN chmod 0755 /usr/local/bin/entrypoint.sh
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:759d0f7669dc2557d9e126e325c4ab3bb5c4bb73c2260470fcaf2b3a36f964f4 done
+#10 naming to docker.io/library/lab-web:latest done
+#10 DONE 0.0s
+lab-web
+Container lab-web removido
+Subindo lab-web em 172.28.0.11...
+32296b0829609a28750103599b0981b93a4b865ddc1e5639642888c8eecb8d13
+Aguardando o servidor web...
+Servidor web respondeu com HTTP 200
+Executando setup do DVWA...
+OK: setup do DVWA concluido
+Inserindo usuarios no DVWA...
+  usuario inserido: admin
+  usuario inserido: administrator
+  usuario inserido: root
+  usuario inserido: user
+  usuario inserido: test
+  usuario inserido: guest
+  usuario inserido: support
+  usuario inserido: backup
+  usuario inserido: adm
+Usuarios no DVWA: 9
+OK: lab-web ativo em 172.28.0.11
+Credenciais usadas: /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial2-credentials.txt
+== Web/DVWA pronto ==
+Tempo total: 00:00:07

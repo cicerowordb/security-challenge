@@ -1,0 +1,16 @@
+Um unico usuario: usando -f para parar no primeiro sucesso
+== Ataque FTP com Medusa ==
+Host: 172.28.0.10
+Usuarios: /wordlists/trial2-users.txt (1 linhas)
+Senhas: /wordlists/trial2-passwords.txt (58500 linhas)
+Threads: 4
+Log do Medusa: /logs/medusa-ftp-20261029-162654.log
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 19:27:08 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: admin Password: 12ab [SUCCESS]
+Credenciais encontradas:
+2026-10-29 19:27:08 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: admin Password: 12ab [SUCCESS]
+Validando credenciais com lftp...
+OK: validado admin
+== Ataque FTP concluido ==
+Tempo total: 00:00:14

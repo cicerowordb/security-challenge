@@ -1,0 +1,20 @@
+== Ataque FTP com Medusa ==
+Host: 172.28.0.10
+Usuarios: /wordlists/trial1-users.txt (9 linhas)
+Senhas: /wordlists/trial1-passwords.txt (58500 linhas)
+Threads: 10
+Log do Medusa: /logs/medusa-ftp-20261029-115139.log
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+NOTICE: ftp.mod: failed to connect, port 21 was not open on 172.28.0.10
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+ERRO: nenhuma credencial encontrada
+Tempo total: 00:00:51

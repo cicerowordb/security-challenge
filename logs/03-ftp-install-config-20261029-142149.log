@@ -1,0 +1,48 @@
+== Instalacao e configuracao do FTP ==
+Rede lab-net ja existe
+Construindo imagem lab-ftp:latest...
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 487B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/debian:12
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/debian:12
+#5 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 66B done
+#4 DONE 0.0s
+
+#6 [2/5] RUN apt-get update  && apt-get install -y --no-install-recommends     vsftpd     procps     passwd     ca-certificates  && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [3/5] COPY vsftpd.conf /etc/vsftpd.conf
+#7 CACHED
+
+#8 [4/5] COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#8 CACHED
+
+#9 [5/5] RUN chmod 0755 /usr/local/bin/entrypoint.sh  && mkdir -p /var/run/vsftpd/empty
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:ea92faaba5482cf6282617f32a2897aa5f8186b2a2aa27f00d0d40d366b8f4e7 done
+#10 naming to docker.io/library/lab-ftp:latest done
+#10 DONE 0.0s
+Subindo lab-ftp em 172.28.0.10...
+9767a1af3ed0a25f9b6bc01d75632efb1d63789317d78fe988d4f6c58c53685b
+Aguardando vsftpd...
+OK: lab-ftp ativo em 172.28.0.10
+Credenciais usadas: /home/cicerow/repos/cicerow/security-chalenge/wordlists/trial1-credentials.txt
+== FTP pronto ==
+Tempo total: 00:00:04

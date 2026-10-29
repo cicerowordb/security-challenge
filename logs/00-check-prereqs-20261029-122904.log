@@ -1,0 +1,12 @@
+===== Verificacao de pre-requisitos =====
+OK: comandos auxiliares presentes
+OK: docker encontrado
+OK: Docker daemon acessivel
+OK: usuario 'cicerow' esta no grupo docker
+OK: imagem base presente: debian:12
+AVISO: imagem base ausente: kalilinux/kali-rolling (sera baixada durante o build)
+OK: rede lab-net existe com subnet 172.28.0.0/16
+OK: espaco em disco: 750 GiB disponiveis
+OK: memoria disponivel: 10 GiB
+===== Pre-requisitos atendidos =====
+Tempo total: 00:00:01

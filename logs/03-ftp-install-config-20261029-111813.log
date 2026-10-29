@@ -1,0 +1,208 @@
+== Instalacao e configuracao do FTP ==
+1e1eecbe53f1feb8d2c2088aa5652592d775689ec344b44e831ce3f7f360bdf0
+Rede lab-net criada
+Construindo imagem lab-ftp:latest...
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.1s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 487B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/debian:12
+#3 ...
+
+#4 [auth] library/debian:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/debian:12
+#3 DONE 1.8s
+
+#5 [internal] load build context
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/debian:12@sha256:d74df7598108a173a621eda4d58a2adbf850b2d9a9d81bc2cca1a6c21174a880
+#6 resolve docker.io/library/debian:12@sha256:d74df7598108a173a621eda4d58a2adbf850b2d9a9d81bc2cca1a6c21174a880
+#6 resolve docker.io/library/debian:12@sha256:d74df7598108a173a621eda4d58a2adbf850b2d9a9d81bc2cca1a6c21174a880 0.1s done
+#6 ...
+
+#5 [internal] load build context
+#5 transferring context: 1.38kB 0.0s done
+#5 DONE 0.1s
+
+#6 [1/5] FROM docker.io/library/debian:12@sha256:d74df7598108a173a621eda4d58a2adbf850b2d9a9d81bc2cca1a6c21174a880
+#6 sha256:d74df7598108a173a621eda4d58a2adbf850b2d9a9d81bc2cca1a6c21174a880 5.63kB / 5.63kB done
+#6 sha256:a0039cc6bb3eb2215aabcd3437cce8808a3858d86bf483eee2ee14fe4d2551c2 1.02kB / 1.02kB done
+#6 sha256:763cbdcdd70f724557c36ad2f9ff506a702c206412d5f7fc81342698b0e0f0c1 453B / 453B done
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 0B / 48.52MB 0.1s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 3.15MB / 48.52MB 0.4s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 11.53MB / 48.52MB 0.4s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 27.26MB / 48.52MB 0.6s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 35.65MB / 48.52MB 0.7s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 42.99MB / 48.52MB 0.8s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 48.52MB / 48.52MB 1.0s
+#6 sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 48.52MB / 48.52MB 1.1s done
+#6 extracting sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506
+#6 extracting sha256:a4aa977c0d0eb2336dad68941e458308ebf32a717c19ea72e475b9eda8035506 1.4s done
+#6 DONE 3.1s
+
+#7 [2/5] RUN apt-get update  && apt-get install -y --no-install-recommends     vsftpd     procps     passwd     ca-certificates  && rm -rf /var/lib/apt/lists/*
+#7 0.487 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+#7 0.595 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+#7 0.621 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+#7 0.816 Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+#7 1.391 Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+#7 1.407 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [358 kB]
+#7 2.475 Fetched 9397 kB in 2s (4364 kB/s)
+#7 2.475 Reading package lists...
+#7 2.975 Reading package lists...
+#7 3.476 Building dependency tree...
+#7 3.618 Reading state information...
+#7 3.791 passwd is already the newest version (1:4.13+dfsg1-1+deb12u2).
+#7 3.791 passwd set to manually installed.
+#7 3.791 The following additional packages will be installed:
+#7 3.791   libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0
+#7 3.792   libncursesw6 libnsl2 libproc2-0 libssl3 libtirpc-common libtirpc3 libwrap0
+#7 3.792   netbase openssl
+#7 3.794 Suggested packages:
+#7 3.794   krb5-doc krb5-user
+#7 3.794 Recommended packages:
+#7 3.794   krb5-locales libgpm2 psmisc logrotate ssl-cert
+#7 3.878 The following NEW packages will be installed:
+#7 3.879   ca-certificates libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3
+#7 3.879   libkrb5support0 libncursesw6 libnsl2 libproc2-0 libssl3 libtirpc-common
+#7 3.880   libtirpc3 libwrap0 netbase openssl procps vsftpd
+#7 3.933 0 upgraded, 17 newly installed, 0 to remove and 0 not upgraded.
+#7 3.933 Need to get 5486 kB of archives.
+#7 3.933 After this operation, 14.6 MB of additional disk space will be used.
+#7 3.933 Get:1 http://deb.debian.org/debian bookworm/main amd64 netbase all 6.4 [12.8 kB]
+#7 3.949 Get:2 http://deb.debian.org/debian bookworm/main amd64 libncursesw6 amd64 6.4-4 [134 kB]
+#7 3.977 Get:3 http://deb.debian.org/debian bookworm/main amd64 libproc2-0 amd64 2:4.0.2-3 [62.8 kB]
+#7 3.979 Get:4 http://deb.debian.org/debian bookworm/main amd64 procps amd64 2:4.0.2-3 [709 kB]
+#7 4.021 Get:5 http://deb.debian.org/debian-security bookworm-security/main amd64 libssl3 amd64 3.0.22-1~deb12u2 [2040 kB]
+#7 4.063 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 openssl amd64 3.0.22-1~deb12u2 [1442 kB]
+#7 4.121 Get:7 http://deb.debian.org/debian-security bookworm-security/main amd64 ca-certificates all 20250419~deb12u2 [161 kB]
+#7 4.122 Get:8 http://deb.debian.org/debian bookworm/main amd64 libkrb5support0 amd64 1.20.1-2+deb12u5 [33.2 kB]
+#7 4.123 Get:9 http://deb.debian.org/debian bookworm/main amd64 libk5crypto3 amd64 1.20.1-2+deb12u5 [79.7 kB]
+#7 4.124 Get:10 http://deb.debian.org/debian bookworm/main amd64 libkeyutils1 amd64 1.6.3-2 [8808 B]
+#7 4.124 Get:11 http://deb.debian.org/debian bookworm/main amd64 libkrb5-3 amd64 1.20.1-2+deb12u5 [332 kB]
+#7 4.129 Get:12 http://deb.debian.org/debian bookworm/main amd64 libgssapi-krb5-2 amd64 1.20.1-2+deb12u5 [135 kB]
+#7 4.130 Get:13 http://deb.debian.org/debian bookworm/main amd64 libtirpc-common all 1.3.3+ds-1 [14.0 kB]
+#7 4.130 Get:14 http://deb.debian.org/debian bookworm/main amd64 libtirpc3 amd64 1.3.3+ds-1 [85.2 kB]
+#7 4.131 Get:15 http://deb.debian.org/debian bookworm/main amd64 libnsl2 amd64 1.3.0-2 [39.5 kB]
+#7 4.131 Get:16 http://deb.debian.org/debian bookworm/main amd64 libwrap0 amd64 7.6.q-32 [54.9 kB]
+#7 4.190 Get:17 http://deb.debian.org/debian bookworm/main amd64 vsftpd amd64 3.0.3-13+b2 [142 kB]
+#7 4.306 debconf: delaying package configuration, since apt-utils is not installed
+#7 4.330 Fetched 5486 kB in 0s (18.0 MB/s)
+#7 4.353 Selecting previously unselected package netbase.
+#7 4.353 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6096 files and directories currently installed.)
+#7 4.360 Preparing to unpack .../00-netbase_6.4_all.deb ...
+#7 4.366 Unpacking netbase (6.4) ...
+#7 4.407 Selecting previously unselected package libncursesw6:amd64.
+#7 4.409 Preparing to unpack .../01-libncursesw6_6.4-4_amd64.deb ...
+#7 4.419 Unpacking libncursesw6:amd64 (6.4-4) ...
+#7 4.464 Selecting previously unselected package libproc2-0:amd64.
+#7 4.465 Preparing to unpack .../02-libproc2-0_2%3a4.0.2-3_amd64.deb ...
+#7 4.470 Unpacking libproc2-0:amd64 (2:4.0.2-3) ...
+#7 4.521 Selecting previously unselected package procps.
+#7 4.522 Preparing to unpack .../03-procps_2%3a4.0.2-3_amd64.deb ...
+#7 4.534 Unpacking procps (2:4.0.2-3) ...
+#7 4.634 Selecting previously unselected package libssl3:amd64.
+#7 4.635 Preparing to unpack .../04-libssl3_3.0.22-1~deb12u2_amd64.deb ...
+#7 4.639 Unpacking libssl3:amd64 (3.0.22-1~deb12u2) ...
+#7 4.788 Selecting previously unselected package openssl.
+#7 4.789 Preparing to unpack .../05-openssl_3.0.22-1~deb12u2_amd64.deb ...
+#7 4.794 Unpacking openssl (3.0.22-1~deb12u2) ...
+#7 4.922 Selecting previously unselected package ca-certificates.
+#7 4.924 Preparing to unpack .../06-ca-certificates_20250419~deb12u2_all.deb ...
+#7 4.934 Unpacking ca-certificates (20250419~deb12u2) ...
+#7 5.004 Selecting previously unselected package libkrb5support0:amd64.
+#7 5.005 Preparing to unpack .../07-libkrb5support0_1.20.1-2+deb12u5_amd64.deb ...
+#7 5.010 Unpacking libkrb5support0:amd64 (1.20.1-2+deb12u5) ...
+#7 5.051 Selecting previously unselected package libk5crypto3:amd64.
+#7 5.052 Preparing to unpack .../08-libk5crypto3_1.20.1-2+deb12u5_amd64.deb ...
+#7 5.058 Unpacking libk5crypto3:amd64 (1.20.1-2+deb12u5) ...
+#7 5.102 Selecting previously unselected package libkeyutils1:amd64.
+#7 5.104 Preparing to unpack .../09-libkeyutils1_1.6.3-2_amd64.deb ...
+#7 5.109 Unpacking libkeyutils1:amd64 (1.6.3-2) ...
+#7 5.153 Selecting previously unselected package libkrb5-3:amd64.
+#7 5.154 Preparing to unpack .../10-libkrb5-3_1.20.1-2+deb12u5_amd64.deb ...
+#7 5.158 Unpacking libkrb5-3:amd64 (1.20.1-2+deb12u5) ...
+#7 5.226 Selecting previously unselected package libgssapi-krb5-2:amd64.
+#7 5.227 Preparing to unpack .../11-libgssapi-krb5-2_1.20.1-2+deb12u5_amd64.deb ...
+#7 5.232 Unpacking libgssapi-krb5-2:amd64 (1.20.1-2+deb12u5) ...
+#7 5.279 Selecting previously unselected package libtirpc-common.
+#7 5.280 Preparing to unpack .../12-libtirpc-common_1.3.3+ds-1_all.deb ...
+#7 5.285 Unpacking libtirpc-common (1.3.3+ds-1) ...
+#7 5.324 Selecting previously unselected package libtirpc3:amd64.
+#7 5.325 Preparing to unpack .../13-libtirpc3_1.3.3+ds-1_amd64.deb ...
+#7 5.331 Unpacking libtirpc3:amd64 (1.3.3+ds-1) ...
+#7 5.372 Selecting previously unselected package libnsl2:amd64.
+#7 5.374 Preparing to unpack .../14-libnsl2_1.3.0-2_amd64.deb ...
+#7 5.379 Unpacking libnsl2:amd64 (1.3.0-2) ...
+#7 5.433 Selecting previously unselected package libwrap0:amd64.
+#7 5.434 Preparing to unpack .../15-libwrap0_7.6.q-32_amd64.deb ...
+#7 5.439 Unpacking libwrap0:amd64 (7.6.q-32) ...
+#7 5.491 Selecting previously unselected package vsftpd.
+#7 5.492 Preparing to unpack .../16-vsftpd_3.0.3-13+b2_amd64.deb ...
+#7 5.498 Unpacking vsftpd (3.0.3-13+b2) ...
+#7 5.548 Setting up libkeyutils1:amd64 (1.6.3-2) ...
+#7 5.562 Setting up libtirpc-common (1.3.3+ds-1) ...
+#7 5.581 Setting up libssl3:amd64 (3.0.22-1~deb12u2) ...
+#7 5.596 Setting up libkrb5support0:amd64 (1.20.1-2+deb12u5) ...
+#7 5.610 Setting up libproc2-0:amd64 (2:4.0.2-3) ...
+#7 5.625 Setting up libncursesw6:amd64 (6.4-4) ...
+#7 5.640 Setting up libk5crypto3:amd64 (1.20.1-2+deb12u5) ...
+#7 5.655 Setting up procps (2:4.0.2-3) ...
+#7 5.702 Setting up netbase (6.4) ...
+#7 5.738 Setting up libkrb5-3:amd64 (1.20.1-2+deb12u5) ...
+#7 5.754 Setting up openssl (3.0.22-1~deb12u2) ...
+#7 5.774 Setting up ca-certificates (20250419~deb12u2) ...
+#7 6.235 Updating certificates in /etc/ssl/certs...
+#7 6.867 148 added, 0 removed; done.
+#7 6.908 Setting up libgssapi-krb5-2:amd64 (1.20.1-2+deb12u5) ...
+#7 6.923 Setting up libtirpc3:amd64 (1.3.3+ds-1) ...
+#7 6.940 Setting up libnsl2:amd64 (1.3.0-2) ...
+#7 6.955 Setting up libwrap0:amd64 (7.6.q-32) ...
+#7 6.970 Setting up vsftpd (3.0.3-13+b2) ...
+#7 7.260 invoke-rc.d: could not determine current runlevel
+#7 7.263 invoke-rc.d: policy-rc.d denied execution of start.
+#7 7.287 Processing triggers for libc-bin (2.36-9+deb12u14) ...
+#7 7.310 Processing triggers for ca-certificates (20250419~deb12u2) ...
+#7 7.318 Updating certificates in /etc/ssl/certs...
+#7 7.786 0 added, 0 removed; done.
+#7 7.786 Running hooks in /etc/ca-certificates/update.d...
+#7 7.787 done.
+#7 DONE 8.8s
+
+#8 [3/5] COPY vsftpd.conf /etc/vsftpd.conf
+#8 DONE 0.1s
+
+#9 [4/5] COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#9 DONE 0.1s
+
+#10 [5/5] RUN chmod 0755 /usr/local/bin/entrypoint.sh  && mkdir -p /var/run/vsftpd/empty
+#10 DONE 0.3s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.2s done
+#11 writing image sha256:9ea1044a3ef305c0d6a91372a93e9d6f8bf35734f61e914386e4e2a36298430a done
+#11 naming to docker.io/library/lab-ftp:latest done
+#11 DONE 0.3s
+Subindo lab-ftp em 172.28.0.10...
+9b0d52190e25c52c784030d0f39d00c4f3de2c27587b299ab519f0f0f49ce256
+Aguardando vsftpd...
+ERRO: processo 'vsftpd' nao iniciou em 'lab-ftp'
+Usuario FTP configurado: admin
+Usuario FTP configurado: administrator
+usermod: no changes
+Usuario FTP configurado: root
+Usuario FTP configurado: user
+Usuario FTP configurado: test
+Usuario FTP configurado: guest
+Usuario FTP configurado: support
+Usuario FTP configurado: backup
+useradd: group adm exists - if you want to add this user to that group, use -g.
+Tempo total: 00:00:51
